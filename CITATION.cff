@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >
+  If you use this repository, please cite the associated GTSD 2026 paper.
+title: "Multi-Objective EVCS Siting and Sizing — Reproducibility Package"
+type: software
+authors:
+  - family-names: "Nguyen"
+    given-names: "Tien-Khai"
+  - family-names: "Le"
+    given-names: "Thi-Minh-Chau"
+  - family-names: "Le"
+    given-names: "Trong-Nghia"
+version: 1.0.0
+repository-code: "https://github.com/khainguyentien555/multi-objective-evcs-siting-sizing"
+url: "https://github.com/khainguyentien555/multi-objective-evcs-siting-sizing"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Nguyen"
+      given-names: "Tien-Khai"
+    - family-names: "Le"
+      given-names: "Thi-Minh-Chau"
+    - family-names: "Le"
+      given-names: "Trong-Nghia"
+  title: "Multi-Objective Mixed-Integer Programming for Siting and Sizing Electric Vehicle Charging Stations in Phu Quoc, Vietnam"
+  year: 2026
+  notes: "GTSD 2026 Paper ID 517; accepted/in press. Final DOI and proceedings pages pending."
