@@ -1,0 +1,45 @@
+name: Generate SHA-256 manifest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-checksums:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Generate SHA-256 manifest
+        shell: bash
+        run: |
+          mkdir -p checksums
+
+          {
+            find data -type f -print0
+            find figures -type f -print0
+          } \
+          | sort -z \
+          | xargs -0 sha256sum \
+          > checksums/REFERENCE_SHA256SUMS.txt
+
+          cat checksums/REFERENCE_SHA256SUMS.txt
+
+      - name: Commit checksum manifest
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add checksums/REFERENCE_SHA256SUMS.txt
+
+          if git diff --cached --quiet; then
+            echo "Checksum manifest is already up to date."
+          else
+            git commit -m "Update archival SHA-256 manifest"
+            git push
+          fi
