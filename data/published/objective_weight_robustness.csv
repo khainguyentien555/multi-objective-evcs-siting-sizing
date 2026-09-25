@@ -1,0 +1,5 @@
+configuration,w_service,w_load_balance,w_land_use,dmax_km,coverage_ratio,F1_hat,F2_hat,F3_hat,paper_interpretation
+balanced,0.33,0.33,0.33,1.0,1.000,0.155,0.018,0.086,coverage-saturation robustness check
+service-oriented,0.60,0.20,0.20,1.0,1.000,0.155,0.018,0.086,unchanged normalized components
+load-balance-oriented,0.20,0.60,0.20,1.0,1.000,0.155,0.018,0.086,unchanged normalized components
+service-load compromise,0.50,0.30,0.20,1.0,1.000,0.155,0.018,0.086,unchanged normalized components

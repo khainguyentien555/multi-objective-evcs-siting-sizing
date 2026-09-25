@@ -1,0 +1,7 @@
+metric,bc,bipso_gr,note
+F1_hat_served_demand_term,0.155,0.209,normalized term
+F2_hat_load_balance,0.018,0.033,normalized term
+F3_hat_land_use,0.086,0.204,normalized term
+weighted_Z,-0.01765,0.00883,balanced benchmark
+coverage_ratio,1.000,1.000,full assignment
+runtime_s,0.11,0.65,reported runtime

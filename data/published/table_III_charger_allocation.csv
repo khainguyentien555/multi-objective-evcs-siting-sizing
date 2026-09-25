@@ -1,0 +1,10 @@
+station,bc_status,bc_11kw,bc_60kw,bc_150kw,bipso_gr_status,bipso_gr_11kw,bipso_gr_60kw,bipso_gr_150kw
+CS1,Open,10,14,6,Open,13,21,2
+CS2,Open,10,7,0,Closed,0,0,0
+CS3,Open,15,8,0,Open,0,25,0
+CS4,Open,20,6,0,Open,25,37,0
+CS5,Open,12,6,0,Closed,0,0,0
+CS6,Open,10,6,0,Open,3,2,0
+CS7,Open,16,9,0,Open,25,80,0
+CS8,Open,12,21,0,Open,25,75,0
+Total,8 open,105,77,6,6 open,91,240,2

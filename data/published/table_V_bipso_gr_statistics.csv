@@ -1,0 +1,17 @@
+metric,value,unit_or_note
+runs,30,independent runs
+fitness_best,958.103,raw heuristic fitness
+fitness_mean,975.830,raw heuristic fitness
+fitness_worst,994.276,raw heuristic fitness
+fitness_std,9.955,
+fitness_cv,1.02,percent
+bc_reference_fitness,940.291,same raw fitness expression
+gap_best,1.89,percent
+gap_mean,3.78,percent
+gap_worst,5.74,percent
+mean_runtime,0.465,s
+full_coverage,30/30,runs
+stabilization_iteration,37,iteration
+initial_mean_best_fitness,1054.987,
+mode_open_stations,4,stations
+mean_open_stations,5.50,stations

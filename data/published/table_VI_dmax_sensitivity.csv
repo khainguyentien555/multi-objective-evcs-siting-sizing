@@ -1,0 +1,4 @@
+dmax_km,stations_receiving_load,average_used_distance_km,max_used_distance_km,coverage_ratio
+0.5,8,0.3283,0.498,1.000
+0.8,7,0.4532,0.784,1.000
+1.2,6,0.4727,0.996,1.000

@@ -1,0 +1,11 @@
+parameter,value,unit_or_note
+Study area,56,hectares
+Planning horizon,2040,year
+Projected population,6500,persons
+Number of demand points,33,
+Number of candidate sites,8,
+Distance matrix size,33 x 8,
+Road-based distance matrix,0.060–1.467,km
+Vehicle/service ratios (EM/EC/ET/EB),670 / 50 / 90 / 8,per 1000
+Effective simultaneous demand (EM/EC/ET/EB),1771 / 147 / 230 / 31,effective vehicles
+Charger classes (EM / EC–ET / EB),11 / 60 / 150,kW
