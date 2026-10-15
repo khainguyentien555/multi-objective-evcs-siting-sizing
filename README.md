@@ -7,11 +7,9 @@
 ## Associated paper
 
 **Tien-Khai Nguyen, Thi-Minh-Chau Le, and Trong-Nghia Le**  
-“**Multi-Objective Mixed-Integer Programming for Siting and Sizing Electric Vehicle Charging Stations in Phu Quoc, Vietnam**”  
-The 8th International Conference on Green Technology and Sustainable Development (GTSD 2026), Ho Chi Minh City, Vietnam, July 30–31, 2026.  
-**Paper ID:** 517 — accepted / proceedings record in press at package release.
-
-> The final DOI, proceedings page range, and publisher bibliographic record should be added when officially assigned. No DOI or page range is invented in this repository.
+“Multi-Objective Mixed-Integer Programming for Siting and Sizing Electric Vehicle Charging Stations in Phu Quoc, Vietnam”  
+*The 8th International Conference on Green Technology and Sustainable Development (GTSD 2026)*, Ho Chi Minh City, Vietnam, July 30–31, 2026.  
+DOI: https://doi.org/10.1109/GTSD70918.2026.11722487
 
 ## What this repository reproduces
 
