@@ -85,7 +85,14 @@ See `docs/NUMERICAL_LINEAGE.md` for details.
 
 ## Citation
 
-Until the final proceedings record is available, use the provisional citation in `citation.bib.template`. Update `CITATION.cff`, the BibTeX file, and this README once DOI/pages are officially assigned.
+Please cite the associated paper as:
+
+> Tien-Khai Nguyen, Thi-Minh-Chau Le, and Trong-Nghia Le,  
+> “Multi-Objective Mixed-Integer Programming for Siting and Sizing Electric Vehicle Charging Stations in Phu Quoc, Vietnam,”  
+> *The 8th International Conference on Green Technology and Sustainable Development (GTSD 2026)*, 2026.  
+> DOI: https://doi.org/10.1109/GTSD70918.2026.11722487
+
+Machine-readable citation metadata are provided in `CITATION.cff` and `citation.bib`.
 
 ## License status
 
